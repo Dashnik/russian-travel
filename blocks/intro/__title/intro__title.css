@@ -1,0 +1,15 @@
+.intro__title{
+    /* __title */
+width: 690px;
+height: 58px;
+border: 1px solid red;
+font-family: Inter;
+font-style: normal;
+font-weight: 900;
+font-size: 54px;
+line-height: 58px;
+/* identical to box height, or 107% */
+
+
+color: #FFFFFF;
+}
