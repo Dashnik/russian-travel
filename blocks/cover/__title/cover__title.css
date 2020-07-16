@@ -18,4 +18,9 @@
     margin-top: 245px;
     margin-bottom: 32px;
     position: relative;
+    text-decoration: none;
+}
+
+.test{
+    text-decoration: none;
 }
