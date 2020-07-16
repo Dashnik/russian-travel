@@ -1,8 +1,12 @@
-.place__paragraph{
-
+.place__paragraph_bottom{
 /* __paragraph */
+
+
+    position: absolute;
     width: 484px;
-    height: 150px;
+    height: 210px;
+    right: 0px;
+    top: 350px;
 
     font-family: Inter;
     font-style: normal;

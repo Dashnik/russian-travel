@@ -7,4 +7,9 @@
     margin-right: auto;
     border: 1px solid red;
     margin-bottom: 92px;
+    display:grid;
+    grid-template-columns: repeat(4,25%);
+    grid-template-rows: repeat(3,33%);
+    grid-row: gap 13px;
+    grid-column: gap 16px;
 }

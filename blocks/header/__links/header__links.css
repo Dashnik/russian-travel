@@ -1,21 +1,9 @@
+@import url(./_en/header__links_en.css);
+@import url(./_ru/header__links_ru.css);
+
 .header__links{
     display: flex;
     flex-direction: row;
-    
     border: 1px solid red;
-}
-
-.link{
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 28px;
-/* identical to box height, or 117% */    
-    text-align: right;
-    text-decoration-line: underline;
-    color: #FFFFFF;
-    margin: auto;
-    display: flex;
-  margin-right: 10px;
+    margin-top: 20px;
 }
