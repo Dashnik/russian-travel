@@ -5,8 +5,8 @@
 .intro{
     width: 690px;
     height: 428px;
-    border: 1px solid red;
-    margin-left: auto;
+    margin-left: 172px;
     margin-right: auto;
     padding-bottom: 100px;
+    /*  border: 1px solid red;*/
 }

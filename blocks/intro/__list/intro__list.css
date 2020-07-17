@@ -10,4 +10,5 @@
 /* or 150% */
     color: #FFFFFF;
     list-style-type: none; /* Убираем маркеры */
+    padding-left: 0;
 }

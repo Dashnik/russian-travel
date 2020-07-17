@@ -12,38 +12,39 @@ body{
     background-color: #2A2C2F;
 }
 .page{   
-    border: 1px solid red;
+    
     background-color: #2A2C2F;
     min-width: 1280px;
     min-height: 6874px;
+    /*  border: 1px solid red;*/
 }
 
 @media screen and (max-weight:320px)
 {
-    .page{
-        border: 1px solid red;
+    .page{    
         background-color: #2A2C2F;
         min-width: 320px;
         min-height: 9617px;
+        /*  border: 1px solid red;*/
     }
 }
 
 @media screen and (max-weight:768px)
 {
     .page{
-        border: 1px solid red;
         background-color: #2A2C2F;
         min-width: 768px;
         min-height: 6846px;
+        /*  border: 1px solid red;*/
     }
 }
 
 @media screen and (max-weight:1024px)
 {
     .page{
-        border: 1px solid red;
         background-color: #2A2C2F;
         min-width: 1024px;
         min-height: 6898px;
+        /*  border: 1px solid red;*/
     }
 }
