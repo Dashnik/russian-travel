@@ -7,17 +7,16 @@
 @import url(../blocks/places/places.css);
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/place/place.css);
+@import url(../blocks/body/body.css);
 
 
-body{    
-    background-color: #2A2C2F;
-}
-.page{   
-    
-    background-color: #2A2C2F;
+
+
+/*.page{   
     min-width: 1280px;
     min-height: 6874px;
-    /*  border: 1px solid red;*/
+    /*  border: 1px solid red;
 }
 
 @media screen and (max-weight:320px)
@@ -26,7 +25,7 @@ body{
         background-color: #2A2C2F;
         min-width: 320px;
         min-height: 9617px;
-        /*  border: 1px solid red;*/
+        /*  border: 1px solid red;
     }
 }
 
@@ -36,7 +35,7 @@ body{
         background-color: #2A2C2F;
         min-width: 768px;
         min-height: 6846px;
-        /*  border: 1px solid red;*/
+        /*  border: 1px solid red;
     }
 }
 
@@ -46,6 +45,6 @@ body{
         background-color: #2A2C2F;
         min-width: 1024px;
         min-height: 6898px;
-        /*  border: 1px solid red;*/
+        /*  border: 1px solid red;
     }
-}
+}*/

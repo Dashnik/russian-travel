@@ -4,11 +4,16 @@
 @import url(../place/__paragraph/place__paragraph_bottom.css);
 @import url(../place/__paragraph/place__paragraph_top.css);
 
-.place{
-    /* place */
+/*.place{
+    /* place 
     width: 980px;
     height: 660px;
     position: relative;
     margin-bottom: 80px;
-    /*  border: 1px solid red;*/
+    /*  border: 1px solid red;
+}*/
+.place{
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    grid-template-rows: repeat(3,33%);
 }

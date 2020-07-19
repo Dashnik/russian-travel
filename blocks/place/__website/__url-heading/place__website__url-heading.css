@@ -2,11 +2,7 @@
    /* __url-heading */
     width: 456px;
     height: 12px;
-    margin-top: 0;
-    margin-bottom: 12px;
-
-
-    font-family: Inter;
+    font-family: Inter, Arial, serif;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
@@ -17,4 +13,3 @@
 
     color: #AAAAAA;
 }
-

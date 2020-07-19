@@ -1,7 +1,7 @@
 @import url(./_en/header__links_en.css);
 @import url(./_ru/header__links_ru.css);
 
-.header__links{
+.header__lang-links{
     display: flex;
     flex-direction: row;
     margin-top: 20px;
