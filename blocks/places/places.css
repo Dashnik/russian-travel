@@ -80,20 +80,6 @@
 @media screen and (max-width: 410px) {
   .places {
     width: 320px;
-    height: 4775px;
-  }
-  .place {
-    width: 320px;
-    height: 963px;
-  }
-  .place__title {
-    width: 288px;
-    height: 35px;
-    font-size: 32px;
-    line-height: 35px;
-  }
-  .image {
-    width: 320px;
-    height: 320px;
+    height: 4775px;    
   }
 }

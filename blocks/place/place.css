@@ -1,19 +1,30 @@
 @import url(../place/__title/place__title.css);
 @import url(../place/__image/place__image.css);
 @import url(../place/__website/place__website.css);
-@import url(../place/__paragraph/place__paragraph_bottom.css);
-@import url(../place/__paragraph/place__paragraph_top.css);
+@import url(./__paragraph/place__paragraph.css);
 
-/*.place{
-    /* place 
-    width: 980px;
-    height: 660px;
-    position: relative;
-    margin-bottom: 80px;
-    /*  border: 1px solid red;
-}*/
 .place{
     display: grid;
     grid-template-columns: repeat(4,25%);
     grid-template-rows: repeat(3,33%);
 }
+
+@media screen and (max-width: 410px) {
+    .place {
+      width: 320px;
+      height: 963px;
+     display: flex;
+     flex-direction: column;
+    }
+
+    .place__title {
+      width: 288px;
+      height: 35px;
+      font-size: 32px;
+      line-height: 35px;
+    }
+    .image {
+      width: 320px;
+      height: 320px;
+    }
+  }

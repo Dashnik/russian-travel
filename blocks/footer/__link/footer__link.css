@@ -1,7 +1,7 @@
 .footer__link{
 
     /* __link */
-    width: 106px;
+    min-width: 50px;
     height: 18px;
     font-family: Inter, Arial, serif;
     font-style: normal;

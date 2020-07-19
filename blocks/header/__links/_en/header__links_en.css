@@ -1,14 +1,16 @@
-.header__links_en{   
-    width: 29px;
-    height: 28px;
+.header__links_en {
+  width: 29px;
+}
 
-    font-family: Inter, Arial, serif;
-    font-style: normal;
+/* identical to box height, or 117% */
+
+/*
+     height: 28px;
+      font-style: normal;
     font-weight: normal;
     font-size: 24px;
     line-height: 28px;
-/* identical to box height, or 117% */
-    text-align: right;
-
+    font-family: Inter, Arial, serif;
     color: #FFFFFF;
-}
+    text-align: right;
+    */

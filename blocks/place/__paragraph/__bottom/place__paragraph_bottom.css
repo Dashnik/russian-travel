@@ -1,0 +1,16 @@
+.place__paragraph_bottom{
+    width: 484px;
+    min-height: 180px;
+    grid-column-start: 3;
+    grid-column-end:5;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    
+    /*font-family: Inter, Arial, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-top: 0;*/
+}
