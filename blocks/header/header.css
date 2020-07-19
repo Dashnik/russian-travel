@@ -19,7 +19,7 @@
 {
   .header{
     width: 1174px;
-    border: 1px solid green;
+
   }
 }
 
@@ -27,7 +27,7 @@
 {
     .header{
         width: 720px;
-        border: 1px solid green;
+
       }
  
 }
@@ -37,7 +37,7 @@
     .header{
         width: 720px;
         height: 42px;
-        border: 1px solid green;
+
       }
 
     .header__logo{
