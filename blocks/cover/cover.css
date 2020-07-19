@@ -2,11 +2,63 @@
 @import url(./__subtitle/cover__subtitle.css);
 @import url(./__background/cover__background.css);
 
-.cover{  
-    width: 1184px;
-    height: 740px;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    /*border: 1px solid  #2A2C2F;*/
+.cover {
+  width: 1184px;
+  height: 740px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  /*border: 1px solid  #2A2C2F;*/
+}
+
+@media screen and (max-width: 1054px) {
+  .cover {
+    width: 1024px;
+    height: 640px;
+    /*border: 1px solid green;*/
+  }
+  .cover__background {
+    width: 1024px;
+    height: 640px;
+  }
+}
+
+@media screen and (max-width: 798px) {
+  .cover {
+    width: 768px;
+    height: 480px;
+    /*border: 1px solid green;*/
+  }
+  .cover__background {
+    width: 768px;
+    height: 480px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .cover {
+    width: 320px;
+    height: 200px;
+    /*border: 1px solid green;*/
+  }
+
+  .cover__title {
+    position: absolute;
+    width: 288px;
+    height: 70px;
+    font-size: 32px;
+    line-height: 35px;
+    /*border: 1px solid green;*/
+  }
+  .cover__subtitle {
+    width: 288px;
+    height: 48px;
+    font-size: 14px;
+    line-height: 16px;
+    /*border: 1px solid green;*/
+  }
+  .cover__background {
+    width: 320px;
+    height: 200px;
+  }
 }

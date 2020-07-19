@@ -5,8 +5,49 @@
 
 .lead{
     width: 984px;
-    height: 1005px;
-    margin-left: auto;
-    margin-right: auto;
-   /*  border: 1px solid red;*/
+    height: 1005px;  
+    margin: auto;
+   /* border: 1px solid red;*/
 }
+@media screen and (max-width:1024px)
+{
+  .lead{
+    width: 768px;
+    height: 862px;
+   /* border: 1px solid green;*/
+  }
+}
+
+
+@media screen and (max-width:768px)
+{
+  .lead{
+    width: 320px;
+    height: 406px;
+  }
+    .lead__title {
+        width: 288px;
+        height: 88px;
+        font-size: 40px;
+        line-height: 44px;
+          /* border: 1px solid green;*/
+    }
+    .lead__subtitle{
+        width: 288px;
+        height: 40px;
+        font-size: 16px;
+        line-height: 20px;
+       /* border: 1px solid green;*/
+    }
+    .lead__image{
+        width: 320px;
+        height: 200px;
+      background-image:contain;
+       /* border: 1px solid green;*/
+    }
+    .lead__caption{
+        /* border: 1px solid green;*/
+    }
+}
+
+ 

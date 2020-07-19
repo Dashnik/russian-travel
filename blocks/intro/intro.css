@@ -5,8 +5,67 @@
 .intro{
     width: 690px;
     height: 428px;
-    margin-left: 172px;
+    margin-left: auto;
     margin-right: auto;
     padding-bottom: 100px;
     /*  border: 1px solid red;*/
+}
+
+@media screen and (max-width:1024px)
+{
+  .intro{
+    width: 690px;
+    border: 1px solid green;
+  }
+}
+
+@media screen and (max-width:798px)
+{
+    .intro{
+        width: 720px;
+        border: 1px solid green;
+      }
+  .intro__title{
+         width: 720px;
+        height: 58px;
+        border: 1px solid green;
+  }
+    .intro__text {
+        width: 720px;
+        height: 208px;
+        border: 1px solid green;
+    }
+    .intro__list{
+        width: 720px;
+        height: 90px;
+       /* border: 1px solid green;*/
+    }
+ 
+}
+
+@media screen and (max-width:410px)
+{
+    .intro{
+        width: 288px;
+        height: 752px;
+        border: 1px solid green;
+      }
+    .intro__title{
+        width: 288px;
+       height: 70px;
+       font-size: 32px;
+        line-height: 35px;
+       border: 1px solid green;
+ }
+   .intro__text {
+       width: 288px;
+       height: 520px;
+
+       border: 1px solid green;
+   }
+   .intro__list{
+       width: 288px;
+       height: 90px;
+      /* border: 1px solid green;*/
+   }
 }

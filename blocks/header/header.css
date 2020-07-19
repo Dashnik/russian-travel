@@ -15,11 +15,39 @@
    /*  border: 1px solid red;*/
 }
 
-@media screen and (max-width:288px)
+@media screen and (max-width:1054px)
 {
-    .header{    
-    /* header */
-    width: 288px;
-    height: 42px;
+  .header{
+    width: 1174px;
+    border: 1px solid green;
+  }
+}
+
+@media screen and (max-width:798px)
+{
+    .header{
+        width: 720px;
+        border: 1px solid green;
+      }
+ 
+}
+
+@media screen and (max-width:410px)
+{
+    .header{
+        width: 720px;
+        height: 42px;
+        border: 1px solid green;
+      }
+
+    .header__logo{
+        width: 142px;
+        height: 42px;
     }
+   .header__links_ru{
+    width: 22px;
+    height: 24px;
+    font-size: 18px;
+    line-height: 24px;
+   }
 }
