@@ -1,9 +1,9 @@
 @import url(./__link/place__website__link.css);
 @import url(./__url-heading/place__website__url-heading.css);
 
- /*.place__website{
+/*.place__website{
    /* __website */
-  /*   position: absolute;
+/*   position: absolute;
     right: 30px;
     top: 100px;
     width: 456px;
@@ -13,9 +13,9 @@
 /*  border: 1px solid red;
 }*/
 
-.place__website{
+.place__website {
   width: 456px;
   font-family: Inter, Arial, serif;
-    font-style: normal;
-    font-weight: normal;
+  font-style: normal;
+  font-weight: normal;
 }
