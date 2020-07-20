@@ -1,5 +1,5 @@
-@import url(./_en/header__links_en.css);
-@import url(./_ru/header__links_ru.css);
+@import url(./_active/header__links_active-en.css);
+@import url(./_active/header__links_active-ru.css);
 
 .header__lang-links{
     display: flex;

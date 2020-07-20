@@ -1,12 +1,12 @@
-.header__links_ru{
+.header__links_ru {
   /* __lang-link */
-    width: 30px;          
-/* identical to box height, or 117% */
-    
-    text-decoration-line: underline;
-    margin-right: 18px;
+  width: 30px;
+  /* identical to box height, or 117% */
 
-    /*    height: 28px;
+  text-decoration-line: underline;
+  margin-right: 18px;
+
+  /*    height: 28px;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;

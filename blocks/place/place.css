@@ -1,7 +1,5 @@
 @import url(../place/__title/place__title.css);
 @import url(../place/__image/place__image.css);
-@import url(../place/__website/place__website.css);
-@import url(./__paragraph/place__paragraph.css);
 
 .place{
     display: grid;

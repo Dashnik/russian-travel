@@ -17,10 +17,11 @@
 @media screen and (max-width: 1054px) {
   .header {
     width: 928px;
+    border: 1px solid green;
   }
 }
 
-@media screen and (max-width: 798px) {
+@media screen and (max-width: 810px) {
   .header {
     width: 720px;
   }

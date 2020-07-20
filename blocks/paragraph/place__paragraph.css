@@ -1,5 +1,5 @@
-@import url(./__bottom/place__paragraph_bottom.css);
-@import url(./__top/place__paragraph_top.css);
+@import url(./__bottom/place__paragraph__bottom.css);
+@import url(./__top/place__paragraph__top.css);
 
 .place__paragraph {
   grid-column-start: 3;
