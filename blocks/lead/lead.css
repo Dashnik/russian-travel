@@ -4,16 +4,17 @@
 @import url(./__title/lead__title.css);
 
 .lead{
-    width: 984px;
-    height: 1005px;  
+    max-width: 984px;
+    min-height: 1005px;  
     margin: auto;
+   
    /* border: 1px solid red;*/
 }
 @media screen and (max-width:1024px)
 {
   .lead{
-    width: 768px;
-    height: 862px;
+    max-width: 768px;
+    min-height: 962px;
    /* border: 1px solid green;*/
   }
 }
@@ -21,19 +22,33 @@
 @media screen and (max-width:770px)
 {
   .lead{
-    width: 320px;
-    height: 406px;
+    max-width:768px;
+    min-height: 862px;
+  }
+  .lead__image{
+    width: 768px;
+    height: 400px;
+     background-image:contain;
+   /* border: 1px solid green;*/    
+}
+
+
+@media screen and (max-width:330px)
+{
+  .lead{
+    max-width: 320px;
+    min-height: 406px;
   }
     .lead__title {
-        width: 288px;
-        height: 88px;
+        max-width: 288px;
+        min-height: 88px;
         font-size: 40px;
         line-height: 44px;
           /* border: 1px solid green;*/
     }
     .lead__subtitle{
-      width: 288px;
-      height: 40px;
+      max-width: 288px;
+      min-height: 40px;
       font-size: 16px;
       line-height: 20px;
      /* border: 1px solid green;*/
@@ -41,6 +56,7 @@
   .lead__image{
     width: 320px;
     height: 200px;
-     background-image:contain;
+    background-image:contain;
    /* border: 1px solid green;*/    
+  }
 }
