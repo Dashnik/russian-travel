@@ -18,8 +18,7 @@
   }
 }
 
-
-@media screen and (max-width:768px)
+@media screen and (max-width:770px)
 {
   .lead{
     width: 320px;
@@ -33,21 +32,15 @@
           /* border: 1px solid green;*/
     }
     .lead__subtitle{
-        width: 288px;
-        height: 40px;
-        font-size: 16px;
-        line-height: 20px;
-       /* border: 1px solid green;*/
-    }
-    .lead__image{
-        width: 320px;
-        height: 200px;
-      background-image:contain;
-       /* border: 1px solid green;*/
-    }
-    .lead__caption{
-        /* border: 1px solid green;*/
-    }
+      width: 288px;
+      height: 40px;
+      font-size: 16px;
+      line-height: 20px;
+     /* border: 1px solid green;*/
+  }
+  .lead__image{
+    width: 320px;
+    height: 200px;
+     background-image:contain;
+   /* border: 1px solid green;*/    
 }
-
- 

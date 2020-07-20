@@ -4,7 +4,7 @@
 
 .footer{
     /* footer */
-    width: 1175px;
+    max-width: 1175px;
     height: 18px;
     margin-top: 87px;
     margin-left: auto;
@@ -18,14 +18,14 @@
 @media screen and (max-width:1054px)
 {
   .footer{
-    width: 928px;
+    max-width: 928px;
     height: 18px;
   }
 }
-@media screen and (max-width:798px)
+@media screen and (max-width:768px)
 {
   .footer{
-    width: 186px;
+    max-width: 186px;
     height: 310px;
     display: flex;
     flex-direction: column;
@@ -35,13 +35,13 @@
     flex-direction: column;
   }
   .footer__copyright{
-    width: 186px;
+    max-width: 186px;
     height: 16px;
     font-size: 14px;
     line-height: 16px;
   }
   .footer__link{
-    width: 128px;
+    max-width: 128px;
     height: 24px;
     font-size: 24px;
     line-height: 24px;

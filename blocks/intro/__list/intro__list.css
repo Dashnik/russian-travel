@@ -1,7 +1,7 @@
 .intro__list{
     /* __list */
-    width: 690px;
-    height: 90px;
+    max-width: 690px;
+    min-height: 90px;
     font-family: Inter, Arial, serif;
     font-style: normal;
     font-weight: bold;

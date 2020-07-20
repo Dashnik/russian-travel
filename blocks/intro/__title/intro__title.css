@@ -1,7 +1,7 @@
 .intro__title{
     /* __title */
-width: 690px;
-height: 58px;
+max-width: 690px;
+min-height: 58px;
 font-family: Inter, Arial, serif;
 font-style: normal;
 font-weight: 900;
