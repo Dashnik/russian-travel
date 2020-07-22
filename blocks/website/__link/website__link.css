@@ -1,6 +1,6 @@
 .website__link {
   /* __link */
-  height: 22px;
+  min-height: 22px;
   font-size: 18px;
   line-height: 22px;
   /* identical to box height, or 122% */
@@ -12,8 +12,3 @@
   opacity: 0.6;
   transition: linear;
 }
-
-/*  font-family: Inter, Arial, serif;
-    font-style: normal;
-    font-weight: normal;
-     width: 456px;*/

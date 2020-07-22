@@ -4,7 +4,7 @@
 
 .cover {
   max-width: 1184px;
-  height: 740px;
+  min-height: 740px;
   margin-left: auto;
   margin-right: auto;
   position: relative;
@@ -15,7 +15,7 @@
 @media screen and (max-width: 1054px) {
   .cover {
     max-width: 1024px;
-    height: 640px;
+    min-height: 640px;
     /*border: 1px solid green;*/
   }
   .cover__background {
@@ -28,7 +28,7 @@
 @media screen and (max-width: 798px) {
   .cover {
     max-width: 768px;
-    height: 480px;
+    min-height: 480px;
     /*border: 1px solid green;*/
   }
   .cover__background {
@@ -40,20 +40,20 @@
 @media screen and (max-width: 410px) {
   .cover {
     max-width: 320px;
-    height: 200px;
+    min-height: 200px;
     /*border: 1px solid green;*/
   }
 
   .cover__title {
     max-width: 288px;
-    min-height: 70px;
+    height: 70px;
     font-size: 32px;
     line-height: 35px;
     /*border: 1px solid green;*/
   }
   .cover__subtitle {
     max-width: 288px;
-    min-height: 48px;
+    height: 48px;
     font-size: 14px;
     line-height: 16px;
     /*border: 1px solid green;*/

@@ -1,5 +1,6 @@
-@import url(../place/__title/place__title.css);
-@import url(../place/__image/place__image.css);
+@import url(./__image/place__image.css);
+@import url(./__title/place__title.css);
+@import url(./__paragraph/place__paragraph.css);
 
 .place{
     display: grid;
@@ -10,14 +11,14 @@
 @media screen and (max-width: 410px) {
     .place {
       width: 320px;
-      height: 963px;
+      min-height: 963px;
      display: flex;
      flex-direction: column;
     }
 
     .place__title {
       width: 288px;
-      height: 35px;
+      min-height: 35px;
       font-size: 32px;
       line-height: 35px;
     }

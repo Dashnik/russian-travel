@@ -1,7 +1,7 @@
 .cover__title{
     /* __title */
     max-width: 560px;
-    min-height: 152px;
+    height: 152px;
 
 
     font-family: Inter, Arial, serif;
@@ -18,9 +18,9 @@
     padding-top: 245px;
     margin-bottom: 32px;
     position: relative;
+}
+
+.cover_underlined{
     text-decoration: none;
 }
 
-.test{
-    text-decoration: none;
-}
