@@ -3,10 +3,10 @@
 @import url(./__background/cover__background.css);
 
 .cover {
-  max-width: 1184px;
+  /*max-width: 1184px;*/
   min-height: 740px;
   margin-top: 92px;
- 
+ width: 100%;
   position: relative;
   box-sizing: border-box;
   /*border: 1px solid  #2A2C2F;*/
