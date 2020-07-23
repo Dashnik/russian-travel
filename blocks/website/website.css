@@ -2,10 +2,14 @@
 @import url(./__link/website__link.css);
 
 .website {
-  width: 456px;
+  max-width: 456px;
   font-family: Inter, Arial, serif;
   font-style: normal;
   font-weight: normal;
 }
 
-
+@media screen and (max-width: 770px) {
+  .website {
+    max-width: 352px;
+  }
+}

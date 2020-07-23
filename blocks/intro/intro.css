@@ -4,9 +4,8 @@
 
 .intro {
   max-width: 690px;
-  height: 428px;
-  margin-left: auto;
-  margin-right: auto;
+  min-height: 428px;
+  padding-right: 25%;
   padding-bottom: 100px;
   margin-bottom: 80px;
   /*  border: 1px solid red;*/
@@ -18,39 +17,11 @@
   .intro {
     max-width: 720px;
   }
-  .intro__title {
-    max-width: 720px;
-    min-height: 58px;
-  }
-  .intro__text {
-    max-width: 720px;
-    min-height: 208px;
-  }
-  .intro__list {
-    max-width: 720px;
-    min-height: 90px;
-    /* border: 1px solid green;*/
-  }
 }
 
-@media screen and (max-width: 410px) {
+@media screen and (max-width: 350px) {
   .intro {
     max-width: 288px;
     min-height: 752px;
-  }
-  .intro__title {
-    max-width: 288px;
-    min-height: 70px;
-    font-size: 32px;
-    line-height: 35px;
-  }
-  .intro__text {
-    max-width: 288px;
-    min-height: 520px;
-  }
-  .intro__list {
-    max-width: 288px;
-    min-height: 90px;
-    /* border: 1px solid green;*/
   }
 }

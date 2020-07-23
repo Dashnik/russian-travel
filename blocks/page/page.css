@@ -1,17 +1,5 @@
-/*body{    
-    background-color: #2A2C2F;
-
-}*/
-
 .page{
     background-color: #2A2C2F; 
+    font-family: Inter, Arial, serif;
+    font-style: normal;
 }
-
-/*@media screen and (max-width:1024px)
-{
-    .page{    
-        max-width: 1024px;       
-        border: 1px solid green;   
-        background-color:purple; 
-    }
-}*/

@@ -1,0 +1,8 @@
+.header__lang-links_toggle_disabled{
+    max-width: 29px;
+}
+
+.header__lang-links_toggle_disabled:hover{
+    opacity: 0.6;
+    transition:linear;
+}

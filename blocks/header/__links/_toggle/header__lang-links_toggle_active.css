@@ -1,0 +1,11 @@
+.header__lang-links_toggle_active{
+    text-decoration-line: underline;
+    margin-right: 18px;
+    max-width: 30px;
+}
+
+.header__lang-links_toggle_active:hover
+{
+    opacity: 0.6;
+    transition:linear;
+}

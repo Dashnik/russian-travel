@@ -2,28 +2,34 @@
 @import url(./__title/place__title.css);
 @import url(./__paragraph/place__paragraph.css);
 
-.place{
-    display: grid;
-    grid-template-columns: repeat(4,25%);
-    grid-template-rows: repeat(3,33%);
+.place {
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: repeat(3, 33%);
+  max-width: 984px;
 }
 
-@media screen and (max-width: 410px) {
-    .place {
-      width: 320px;
-      /*min-height: 963px;*/
-     display: flex;
-     flex-direction: column;
-    }
-
-    .place__title {
-      width: 288px;
-      /*min-height: 35px;*/
-      font-size: 32px;
-      line-height: 35px;
-    }
-    .image {
-      width: 320px;
-      height: 320px;
-    }
+@media screen and (max-width: 1054px) {
+  .place {
+    max-width: 928px;
+    height: 644px;
   }
+}
+
+@media screen and (max-width: 770px) {
+
+  .place {
+    max-width: 720px;
+    height: 580px;
+  }
+}
+
+
+@media screen and (max-width: 350px) {
+  .place {
+    max-width: 320px;
+    /*min-height: 963px;*/
+    display: flex;
+    flex-direction: column;
+  }
+}

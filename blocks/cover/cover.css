@@ -5,36 +5,27 @@
 .cover {
   max-width: 1184px;
   min-height: 740px;
+  margin-top: 92px;
   margin-left: auto;
   margin-right: auto;
-
   position: relative;
   box-sizing: border-box;
   /*border: 1px solid  #2A2C2F;*/
 }
 
-@media screen and (max-width: 1054px) {
+@media screen and (max-width: 1030px) {
   .cover {
     max-width: 1024px;
     min-height: 640px;
     /*border: 1px solid green;*/
   }
-  .cover__background {
-    max-width: 1024px;
-    height: 640px;
-    box-sizing: border-box;
-  }
 }
 
-@media screen and (max-width: 798px) {
+@media screen and (max-width: 770px) {
   .cover {
     max-width: 768px;
     min-height: 480px;
     /*border: 1px solid green;*/
-  }
-  .cover__background {
-    max-width: 768px;
-    height: 480px;
   }
 }
 
@@ -43,24 +34,5 @@
     max-width: 320px;
     min-height: 200px;
     /*border: 1px solid green;*/
-  }
-
-  .cover__title {
-    max-width: 288px;
-   /* height: 70px;*/
-    font-size: 32px;
-    line-height: 35px;
-    /*border: 1px solid green;*/
-  }
-  .cover__subtitle {
-    max-width: 288px;
-    /*height: 48px;*/
-    font-size: 14px;
-    line-height: 16px;
-    /*border: 1px solid green;*/
-  }
-  .cover__background {
-    max-width: 320px;
-    height: 200px;
   }
 }

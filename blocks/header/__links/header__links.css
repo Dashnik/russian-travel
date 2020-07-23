@@ -1,4 +1,5 @@
-@import url(./_toggle/header__lang-links_toggle.css);
+@import url(./_toggle/header__lang-links_toggle_active.css);
+@import url(./_toggle/header__lang-links_toggle_disabled.css);
 
 .header__lang-links{
     display: flex;
@@ -14,5 +15,16 @@
     font-family: Inter, Arial, serif;
     text-align: right;
     color: #FFFFFF;
-    width: 30px;
+    list-style-type:none;
 }
+
+@media screen and (max-width: 410px) {
+    
+    .header__lang-links {
+      max-width: 22px;
+      height: 24px;
+      font-size: 18px;
+      line-height: 24px;
+    }
+  }
+  
