@@ -5,12 +5,12 @@
 .intro {
   max-width: 690px;
   min-height: 428px;
-  padding-right: 25%;
+
   padding-bottom: 100px;
   margin-bottom: 80px;
   /*  border: 1px solid red;*/
-  /*margin-left: auto;
-  margin-right: auto;*/
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media screen and (max-width: 798px) {

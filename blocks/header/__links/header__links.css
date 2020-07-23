@@ -1,30 +1,30 @@
 @import url(./_toggle/header__lang-links_toggle_active.css);
 @import url(./_toggle/header__lang-links_toggle_disabled.css);
 
-.header__lang-links{
-    display: flex;
-    flex-direction: row;
-    margin-top: 20px;
-    /*  border: 1px solid red;*/
+.header__lang-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 20px;
+  /*  border: 1px solid red;*/
 
-    /*min-height: 28px;*/
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 28px;
-    font-family: Inter, Arial, serif;
-    text-align: right;
-    color: #FFFFFF;
-    list-style-type:none;
+  /*min-height: 28px;*/
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  font-family: Inter, Arial, serif;
+  text-align: right;
+  color: #ffffff;
+  list-style-type: none;
+ 
 }
 
 @media screen and (max-width: 410px) {
-    
-    .header__lang-links {
-      max-width: 22px;
-      height: 24px;
-      font-size: 18px;
-      line-height: 24px;
-    }
+  .header__lang-links {
+    max-width: 22px;
+    height: 24px;
+    font-size: 18px;
+    line-height: 24px;   
   }
-  
+}
