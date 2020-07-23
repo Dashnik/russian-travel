@@ -28,7 +28,7 @@
 @media screen and (max-width: 350px) {
   .place {
     max-width: 320px;
-    /*min-height: 963px;*/
+    min-height: 963px;
     display: flex;
     flex-direction: column;
   }
