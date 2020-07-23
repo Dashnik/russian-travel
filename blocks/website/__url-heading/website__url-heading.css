@@ -1,9 +1,16 @@
 .website__url-heading {
   /* __url-heading */
-  min-height: 12px;
+  /*min-height: 12px;*/
   font-size: 12px;
   line-height: 12px;
   /* identical to box height, or 100% */
   letter-spacing: 0.2em;
   color: #aaaaaa;
+}
+
+@media screen and (max-width: 1000px){
+  .website__url-heading{
+    display:none;
+    border: 1px solid purple;
+  }
 }

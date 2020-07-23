@@ -11,14 +11,14 @@
 @media screen and (max-width: 410px) {
     .place {
       width: 320px;
-      min-height: 963px;
+      /*min-height: 963px;*/
      display: flex;
      flex-direction: column;
     }
 
     .place__title {
       width: 288px;
-      min-height: 35px;
+      /*min-height: 35px;*/
       font-size: 32px;
       line-height: 35px;
     }

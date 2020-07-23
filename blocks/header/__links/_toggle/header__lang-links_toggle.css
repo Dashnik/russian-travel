@@ -1,0 +1,15 @@
+.header__lang-links_active{
+    text-decoration-line: underline;
+    margin-right: 18px;
+}
+
+.header__lang-links_active:hover
+{
+    opacity: 0.6;
+    transition:linear;
+}
+
+.header__lang-links_disabled:hover{
+    opacity: 0.6;
+    transition:linear;
+}

@@ -6,31 +6,12 @@
 .page{
     background-color: #2A2C2F; 
 }
-/*@media screen and (max-weight:320px)
-{
-    .body{    
-        min-width: 320px;
-        min-height: 9617px;
-        /*  border: 1px solid red;*/
-    /*}
-}
-/* 
-@media screen and (max-weight:768px)
-{
-    .body{
-        background-color: #2A2C2F;
-        min-width: 768px;
-        min-height: 6846px;
-        /*  border: 1px solid red;
-    }
-}
 
-@media screen and (max-weight:1024px)
+/*@media screen and (max-width:1024px)
 {
-    .body{
-        background-color: #2A2C2F;
-        min-width: 1024px;
-        min-height: 6898px;
-        /*  border: 1px solid red;
+    .page{    
+        max-width: 1024px;       
+        border: 1px solid green;   
+        background-color:purple; 
     }
 }*/

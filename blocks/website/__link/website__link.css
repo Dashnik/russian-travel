@@ -1,6 +1,6 @@
 .website__link {
   /* __link */
-  min-height: 22px;
+  /*min-height: 22px;*/
   font-size: 18px;
   line-height: 22px;
   /* identical to box height, or 122% */
@@ -11,4 +11,11 @@
 .website__link:hover {
   opacity: 0.6;
   transition: linear;
+}
+
+@media screen and (max-width: 1000px){
+  .website__link{
+    display:none;
+    border: 1px solid purple;
+  }
 }

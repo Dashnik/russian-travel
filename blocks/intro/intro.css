@@ -10,6 +10,8 @@
   padding-bottom: 100px;
   margin-bottom: 80px;
   /*  border: 1px solid red;*/
+  /*margin-left: auto;
+  margin-right: auto;*/
 }
 
 @media screen and (max-width: 798px) {
