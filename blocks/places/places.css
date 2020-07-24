@@ -16,11 +16,11 @@
 
 @media screen and (max-width: 770px) {
   .places {
-    max-width: 720px;
+    width: 94%;
     min-height: 2802px;
     grid-row-gap: 200px;
 
-    /*border: 1px solid green;*/
+    border: 1px solid green;
   }
 }
 
