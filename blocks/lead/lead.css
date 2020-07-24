@@ -3,34 +3,29 @@
 @import url(./__subtitle/lead__subtitle.css);
 @import url(./__title/lead__title.css);
 
-.lead{
-    max-width: 984px;
-    min-height: 1005px;  
-    margin: auto;
-    margin-bottom: 92px;
-   /* border: 1px solid red;*/
+.lead {
+  max-width: 984px;
+  min-height: 1005px;
+  margin: auto;
+  margin-bottom: 92px;
+  /* border: 1px solid red;*/
 }
-@media screen and (max-width:1024px)
-{
-  .lead{
-    max-width: 768px;
+@media screen and (max-width: 1024px) {
+  .lead {
+    width: 88%;
     min-height: 962px;
-   /* border: 1px solid green;*/
+    /* border: 1px solid green;*/
   }
 }
 
-@media screen and (max-width:770px)
-{
-  .lead{
-    max-width:768px;
-  
+@media screen and (max-width: 770px) {
+  .lead {
+    max-width: 768px;
   }
-  
 }
 
-@media screen and (max-width:350px)
-{
-  .lead{
+@media screen and (max-width: 350px) {
+  .lead {
     max-width: 320px;
     min-height: 406px;
   }

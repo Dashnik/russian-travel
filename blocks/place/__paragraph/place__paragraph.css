@@ -8,7 +8,6 @@
   color: #ffffff;  
   max-width: 484px;
   width: 100%;
-  border: 1px solid seagreen;
 }
 
 @media screen and (max-width: 1024px) {
@@ -33,9 +32,4 @@
    /* font-size: 16px;*/
     padding-top: 5%;
   }
-}
-
-.place__margin{
-  margin-top: 0;
-  margin-bottom: 5%;
 }

@@ -15,7 +15,7 @@
   /*  border: 1px solid red;*/
 }
 
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1025px) {
   .footer {
     max-width: 928px;
     /* min-height: 18px;*/

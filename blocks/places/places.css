@@ -2,16 +2,15 @@
   display: flex;
   flex-direction: column;
   padding-top: 7%;
- 
+
   width: 77%;
   margin: 0 auto;
 }
 
 @media screen and (max-width: 1054px) {
   .places {
-    max-width: 928px;
+    width: 87%;
     min-height: 3296px;
-    /*border: 1px solid green;*/
   }
 }
 
