@@ -5,7 +5,7 @@
 .footer {
   /* footer */
   max-width: 1175px;
-  min-height: 18px;
+  /*min-height: 18px;*/
   margin-top: 87px;
   margin-left: auto;
   margin-right: auto;
@@ -31,7 +31,7 @@
 @media screen and (max-width: 350px) {
   .footer {
     max-width: 186px;
-    height: 310px;
+    /*height: 310px;*/
     display: flex;
     flex-direction: column;
   }

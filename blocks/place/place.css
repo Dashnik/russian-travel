@@ -13,7 +13,7 @@
 @media screen and (max-width: 1054px) {
   .place {
     max-width: 928px;
-    height: 644px;
+    /*height: 644px;*/
   }
 }
 
@@ -21,7 +21,7 @@
 
   .place {
     max-width: 720px;
-    height: 580px;
+    /*height: 580px;*/
   }
 }
 
@@ -29,7 +29,7 @@
 @media screen and (max-width: 350px) {
   .place {
     max-width: 320px;
-    min-height: 963px;
+  /*  min-height: 963px;*/
     display: flex;
     flex-direction: column;
   }
