@@ -4,10 +4,10 @@
 
 .intro {
   /*max-width: 690px;*/
+  max-width: 60%;
   min-height: 428px;
   padding-bottom: 100px;
   margin-bottom: 0;
- 
 }
 
 @media screen and (max-width: 798px) {

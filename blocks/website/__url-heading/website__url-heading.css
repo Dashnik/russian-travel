@@ -8,18 +8,15 @@
   color: #aaaaaa;
 }
 
-
 @media screen and (max-width: 770px) {
-
   .website__url-heading {
     max-width: 352px;
   }
 }
 
-
-@media screen and (max-width: 600px){
-  .website__url-heading{
-    display:none;
+@media screen and (max-width: 600px) {
+  .website__url-heading {
+    display: none;
     border: 1px solid purple;
   }
 }

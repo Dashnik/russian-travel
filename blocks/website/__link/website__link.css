@@ -1,6 +1,6 @@
 .website__link {
   /* __link */
- max-width: 456px;
+  max-width: 456px;
   font-size: 18px;
   line-height: 22px;
   /* identical to box height, or 122% */
@@ -19,11 +19,9 @@
   }
 }
 
-
-
-@media screen and (max-width: 600px){
-  .website__link{
-    display:none;
+@media screen and (max-width: 600px) {
+  .website__link {
+    display: none;
     border: 1px solid purple;
   }
 }

@@ -5,7 +5,7 @@
   max-width: 980px;
   /*height: 3392px;*/
   min-height: 3592px;
- margin:0 auto;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 1054px) {
@@ -21,7 +21,7 @@
     max-width: 720px;
     min-height: 2802px;
     grid-row-gap: 200px;
-   
+
     /*border: 1px solid green;*/
   }
 }
@@ -29,7 +29,7 @@
 @media screen and (max-width: 410px) {
   .places {
     max-width: 320px;
-    min-height: 4775px;    
+    min-height: 4775px;
     grid-row-gap: 200px;
     width: 100%;
   }
