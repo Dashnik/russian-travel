@@ -14,10 +14,6 @@
   position: relative;
 }
 
-.cover_underlined {
-  text-decoration: none;
-}
-
 @media screen and (max-width: 410px) {
   .cover__title {
     max-width: 288px;

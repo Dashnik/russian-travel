@@ -1,0 +1,8 @@
+.header__lang-link {
+  margin-left: 18px;
+}
+
+.header__lang-link:hover {
+  opacity: 0.6;
+  transition: linear;
+}

@@ -1,5 +1,4 @@
-@import url(./_toggle/header__lang-links_toggle_active.css);
-@import url(./_toggle/header__lang-links_toggle_disabled.css);
+@import url(./_active/header__lang-links_active.css);
 
 .header__lang-links {
   display: flex;
@@ -7,7 +6,6 @@
   justify-content: flex-end;
   margin-top: 20px;
   /*  border: 1px solid red;*/
-
   /*min-height: 28px;*/
   font-weight: normal;
   font-size: 24px;
