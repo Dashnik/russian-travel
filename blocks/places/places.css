@@ -1,10 +1,9 @@
 .places {
-  display: grid;
-  grid-row-gap: 80px;
-
-  max-width: 980px;
-  /*height: 3392px;*/
-  min-height: 3592px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 7%;
+ 
+  width: 77%;
   margin: 0 auto;
 }
 

@@ -4,6 +4,11 @@
 .website {
   max-width: 456px;
   font-weight: normal;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-left: 2%;
+  padding-bottom: 2%;
 }
 
 @media screen and (max-width: 770px) {

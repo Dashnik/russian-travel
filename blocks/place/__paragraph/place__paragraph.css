@@ -1,17 +1,14 @@
 .place__paragraph {
-  grid-column-start: 3;
+  grid-column-start: 2;
   grid-column-end: 5;
-  grid-row-start: 2;
-  grid-row-end: 4;
+  
   font-weight: normal;
   font-size: 18px;
   line-height: 30px;
-  color: #ffffff;
-  margin-top: 0;
-  padding-left: 6%;
-
-  /*test*/
+  color: #ffffff;  
   max-width: 484px;
+  width: 100%;
+  border: 1px solid seagreen;
 }
 
 @media screen and (max-width: 1024px) {
@@ -36,4 +33,9 @@
    /* font-size: 16px;*/
     padding-top: 5%;
   }
+}
+
+.place__margin{
+  margin-top: 0;
+  margin-bottom: 5%;
 }
