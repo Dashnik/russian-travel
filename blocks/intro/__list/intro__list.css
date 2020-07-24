@@ -1,6 +1,7 @@
 .intro__list {
   /* __list */
   max-width: 690px;
+  margin-left: 12%;
   font-family: Inter, Arial, serif;
   font-style: normal;
   font-weight: bold;
