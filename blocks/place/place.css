@@ -8,10 +8,13 @@
   grid-row-gap: 6%;
   grid-column-gap: 1%;
   grid-template-columns: repeat(2, 50%);
-  grid-template-rows: repeat(4, 25%);
+  grid-template-rows: min-content min-content;
   max-width: 984px;
-  margin-bottom: 12%;
+  margin-bottom: 7%;
+  border: 3px solid khaki;
+  min-height:660px;
 }
+
 @media screen and (max-width: 1054px) {
   .place {
     max-width: 928px;
