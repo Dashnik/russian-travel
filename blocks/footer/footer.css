@@ -31,8 +31,8 @@
 @media screen and (max-width: 350px) {
   .footer {
     max-width: 186px;
-    /*height: 310px;*/
     display: flex;
     flex-direction: column;
+    margin-left: 4%;
   }
 }
