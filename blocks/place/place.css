@@ -6,12 +6,11 @@
 .place {
   display: grid;
   grid-row-gap: 6%;
-  grid-column-gap: 1%;
-  grid-template-columns: repeat(2, 50%);
-  grid-template-rows: min-content min-content;
+  column-gap: 40px;
+  grid-template-columns: calc(46.7%) auto;
+  row-gap: 48px;
   max-width: 984px;
   margin-bottom: 7%;
-  min-height:660px;
 }
 
 @media screen and (max-width: 1054px) {
