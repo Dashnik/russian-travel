@@ -8,7 +8,7 @@
   min-height: 1005px;
   margin: auto;
   margin-bottom: 92px;
-  /* border: 1px solid red;*/
+  
 }
 @media screen and (max-width: 1024px) {
   .lead {
@@ -16,6 +16,7 @@
     min-height: 962px;
     /* border: 1px solid green;*/
     margin-bottom: 0;
+    margin-bottom: 5%;
   }
 }
 

@@ -4,21 +4,21 @@
 @import url(./__link/cover__link.css);
 
 .cover {
-  /*max-width: 1184px;*/
+  max-width: 1184px;
+  width: 95%;
   min-height: 740px;
-  width: 100%;
   position: relative;
   box-sizing: border-box;
-  /*border: 1px solid  #2A2C2F;*/
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
+  margin-top: 7%;
 }
 
 @media screen and (max-width: 1030px) {
   .cover {
     max-width: 1024px;
     min-height: 640px;
-    /*border: 1px solid green;*/
+    width: 100%;
+  
   }
 }
 

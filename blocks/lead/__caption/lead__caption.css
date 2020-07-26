@@ -8,9 +8,9 @@
 
   letter-spacing: 0.15em;
   text-transform: uppercase;
-
+  padding-top: 4px;
   color: #ffffff;
-  margin-top: 8px;
+  margin-top: 0;
   margin-bottom: 0;
 
 }

@@ -9,14 +9,14 @@
   color: #ffffff;
   margin: 0 auto;
 
-  padding-top: 20%;
-  padding-bottom: 3%;
+  padding-top: 21%;
+  padding-bottom: 2.5%;
   position: relative;
 }
 
 @media screen and (max-width: 1025px) {
   .cover__title {
-    padding-top: 25%;
+    padding-top: 20%;
     /*border: 1px solid green;*/
   }
 }
