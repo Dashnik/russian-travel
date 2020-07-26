@@ -15,10 +15,11 @@
   margin-bottom: 24px;
 }
 
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 1030px) {
   .footer {
     max-width: 928px;
     /* min-height: 18px;*/
+    margin-top: 92px;
   }
 }
 

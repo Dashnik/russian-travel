@@ -18,6 +18,7 @@
   .place {
     max-width: 928px;
     /*height: 644px;*/
+    row-gap: 40px;
   }
 }
 
