@@ -24,11 +24,11 @@
   }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 330px) {
   .place__paragraph {
     max-width: 288px;
     /* font-size: 16px;*/
-    padding-top: 5%;
+    padding-top: 0;
     margin-left: 4%;
   }
 }

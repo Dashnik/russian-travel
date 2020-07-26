@@ -26,11 +26,12 @@
   }
 }
 
-@media screen and (max-width: 410px) {
+@media screen and (max-width: 330px) {
   .places {
+    padding-top: 19%;
     max-width: 320px;
     min-height: 4775px;
-    grid-row-gap: 200px;
+    grid-row-gap: 60px;
     width: 100%;
   }
 }

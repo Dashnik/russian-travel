@@ -29,10 +29,10 @@
   }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 330px) {
   .lead {
-    margin-bottom: 10%;
     max-width: 320px;
     min-height: 406px;
+    margin-bottom: 21%;
   }
 }

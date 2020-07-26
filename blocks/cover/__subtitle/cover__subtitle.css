@@ -12,9 +12,9 @@
   position: relative;
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 330px) {
   .cover__subtitle {
-    width: 61%;
+    width: 84.3%;
     font-size: 14px;
     line-height: 16px;
     /*border: 1px solid green;*/
