@@ -15,7 +15,7 @@
 
 @media screen and (max-width: 770px) {
   .intro__list {
-    width: 100%;
+    width: 96%;
     margin-left: 3%;
     /* border: 1px solid green;*/
   }

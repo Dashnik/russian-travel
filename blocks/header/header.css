@@ -3,7 +3,7 @@
 @import url(./__lang-link/header__lang-link.css);
 
 .header {
-  max-width: 1174px;
+  width: 94%;
   height: 52px;
   /*margin-top: 28px;*/
   margin-bottom: 56px;

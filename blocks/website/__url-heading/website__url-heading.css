@@ -17,6 +17,5 @@
 @media screen and (max-width: 600px) {
   .website__url-heading {
     display: none;
-    border: 1px solid purple;
   }
 }

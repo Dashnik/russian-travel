@@ -8,7 +8,6 @@
   min-height: 1005px;
   margin: auto;
   margin-bottom: 92px;
-  
 }
 @media screen and (max-width: 1024px) {
   .lead {
@@ -22,7 +21,7 @@
 
 @media screen and (max-width: 770px) {
   .lead {
-    width: 99%;
+    width: 98%;
     min-height: 862px;
     margin-bottom: 12%;
     /*max-width: 768px;*/

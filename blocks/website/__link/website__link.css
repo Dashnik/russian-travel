@@ -22,6 +22,5 @@
 @media screen and (max-width: 600px) {
   .website__link {
     display: none;
-    border: 1px solid purple;
   }
 }

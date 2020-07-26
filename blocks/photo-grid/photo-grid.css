@@ -24,10 +24,17 @@
   }
 }
 
-@media screen and (max-width: 330px) {
+@media screen and (max-width: 420px) {
   .photo-grid {
     /*width: 90%;*/
     grid-template-columns: repeat(auto-fill, 288px);
     row-gap: 12.5px;
   }
 }
+
+/*@media screen and (max-width: 330px) {
+  .photo-grid {
+    grid-template-columns: repeat(auto-fill, 288px);
+    row-gap: 12.5px;
+  }
+}*/

@@ -30,7 +30,7 @@
   }
 }
 
-@media screen and (max-width: 330px) {
+@media screen and (max-width: 420px) {
   .place {
     max-width: 320px;
     /*  min-height: 963px;*/
@@ -40,3 +40,13 @@
     row-gap: 19px;
   }
 }
+/*@media screen and (max-width: 330px) {
+  .place {
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+    row-gap: 19px;
+  }
+}
+*/

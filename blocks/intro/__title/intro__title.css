@@ -1,6 +1,6 @@
 .intro__title {
   /* __title */
- /* margin-left: 12%;*/
+  /* margin-left: 12%;*/
   max-width: 690px;
   margin-bottom: 3%;
   margin-top: 0;
@@ -10,15 +10,14 @@
   /* identical to box height, or 107% */
   color: #ffffff;
 
-
   /*  border: 1px solid red;*/
 }
 
 @media screen and (max-width: 770px) {
   .intro__title {
-   width: 100%;
-   margin-left: 3%;
-   margin-bottom: 4%;
+    width: 96%;
+    margin-left: 3%;
+    margin-bottom: 4%;
   }
 }
 
