@@ -25,6 +25,7 @@
   .cover {
     max-width: 768px;
     min-height: 480px;
+    margin-top: 88px;
     /*border: 1px solid green;*/
   }
 }

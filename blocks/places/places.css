@@ -20,7 +20,7 @@
 @media screen and (max-width: 770px) {
   .places {
     width: 94%;
-    min-height: 2802px;
+   height: 2802px;
     grid-row-gap: 50px;
     padding-top: 12%;
   }
