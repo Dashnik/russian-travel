@@ -4,6 +4,7 @@
 
 .header {
   width: 94%;
+  max-width: 1184px;
   height: 52px;
   /*margin-top: 28px;*/
   margin-bottom: 56px;
